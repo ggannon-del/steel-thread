@@ -34,6 +34,8 @@ variables:
   value: 'your-service-connector'
 - name: appName
   value: 'acr-george-gannon'
+pool:
+  vmImage: 'ubuntu-latest'
 stages:
 - stage: Build
   displayName: 'Build and push Docker image'
