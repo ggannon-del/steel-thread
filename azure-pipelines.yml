@@ -69,7 +69,7 @@ variables:
 - name: dockerRegistryServiceConnection
   value: 'Docker ACR'
 - name:  imageRepository
-  value: 'atari/samlogan-goapp'
+  value: 'commodore/george-friday'
 - name: containerRegistry
   value: 'acrbjssacademy.azurecr.io'
 - name: dockerfilePath
